@@ -2,6 +2,12 @@ package com.prowings.exception_delegation;
 
 public class ThrowDemo {
 	
+	public ThrowDemo() throws Exception{
+		super();
+		if(10>5)
+		throw new ArithmeticException();
+	}
+
 	public static void main(String[] args) {
 		
 		System.out.println("main started!!");
