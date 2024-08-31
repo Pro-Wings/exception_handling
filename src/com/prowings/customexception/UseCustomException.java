@@ -2,6 +2,10 @@ package com.prowings.customexception;
 
 public class UseCustomException {
 
+	//write a method for validating email
+	
+	
+	
 	public static void main(String[] args) {
 
 		System.out.println("main method started!!");
